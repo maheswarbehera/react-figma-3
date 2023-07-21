@@ -30,7 +30,7 @@ function FormModal(props) {
                                 <div className="col-lg-7 col-md-6 col-sm-12 col-12">
                                     <div className="right-side  mt-lg-4  mt-md-4">
                                         <div className="d-flex justify-content-between back-to-cat">
-                                            <h6>Trucks</h6>
+                                            <h6>{props.title}</h6>
                                             <h6><a href='' className="text-decoration-none" data-bs-target="#estimateModal" data-bs-toggle="modal">Change</a></h6>
                                         </div>
                                         <div className="form-popup text-start">
