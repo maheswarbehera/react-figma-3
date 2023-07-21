@@ -7,16 +7,16 @@ function Footer() {
 
             <footer className='footer-bg'>
                 <div className='container'>
-                    <div className="row py-5 text-lg-start text-md-start text-sm-center text-center">
-                        <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                            <h1 className="logo">Pickup</h1>
+                     <div className="row pt-5 pb-2"> {/* text-lg-start text-md-start text-sm-center text-center */}
+                        <div className="col-lg-3 col-md-3 col-sm-6 col-6 order-1 order-sm-1 order-md-0 order-lg-0 d-lg-block d-none">
+                            <h1 className="logo pt-4 pt-sm4 pt-lg-0 pt-md-0">Pickup</h1>
                             <h5 className="text-wrapper">Send anything,</h5>
                             <h5 className="strong">anywhere,</h5>
                             <h5 className="text-wrapper">anytime</h5>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-6 order-2 order-sm-2 order-md-1 order-lg-1">
                             <div className="text-wrapper-3">
-                                <h4>Company</h4>
+                                <h4 className="pt-4 pt-sm4 pt-lg-0 pt-md-0">Company</h4>
                             </div>
                             <ul className='list-unstyled'>
                                 <li>About Us</li>
@@ -25,9 +25,9 @@ function Footer() {
                                 <li>Blog</li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-6 order-3 order-sm-3 order-md-2 order-lg-2">
                             <div className="text-wrapper-3">
-                                <h4>Quick Links</h4>
+                                <h4 className='pt-4 pt-sm4 pt-lg-0 pt-md-0'>Quick Links</h4>
                             </div>
                             <ul className='list-unstyled'>
                                 <li>City Tempo</li>
@@ -37,9 +37,9 @@ function Footer() {
                                 <li>Services</li>
                             </ul>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div className="col-lg-3 col-md-3 col-sm-6 col-6 order-4 order-sm-4 order-md-3 order-lg-3 d-lg-block d-none">
                             <div className="text-wrapper-3">
-                                <h4>Support</h4>
+                                <h4 className='pt-4 pt-sm4 pt-lg-0 pt-md-0'>Support</h4>
                             </div>
                             <ul className='list-unstyled'>
                                 <li>Contact Us</li>
@@ -49,32 +49,31 @@ function Footer() {
                                 <li>Driver Partner Terms &amp; Conditions</li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                            <div className="text-wrapper-3">
-                                <div className='list-unstyled'>
-                                    <img src={google} alt="" />
-                                    <img className='pt-lg-4 pt-sm-0 ps-sm-4 ps-md-0 pt-md-4 pt-3' src={apple} alt="" />
-                                </div>
-                            </div>
+                        <div className="col-lg-2 col-md-4 col-sm-12 col-12 order-0 order-sm-0 order-md-4 order-lg-4">
+                            <div className="text-wrapper-3 row">                               
+                                <div className="col-lg-12 col-md-12 col-sm-6 col-6"><img src={google} alt="" className='img-fluid'/></div>
+                                <div className="col-lg-12 col-md-12 col-sm-6 col-6">
+                                <img className=' pt-sm-0  pt-md-3 pt-lg-3 img-fluid' src={apple} alt="" /> {/*pt-lg-4 pt-sm-0 ps-sm-4 ps-md-0 pt-md-4 pt-3*/}
+                            </div></div>
                         </div>
                     </div>
-                    <div className="row pb-4 text-lg-start text-md-start text-sm-center text-center">
-                        <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                            <div className="div-wrapper">
-                                <div className="text-wrapper">We are here</div>
-                                <div className="location">Delhi NCR</div>
-                            </div>
+                     <div className="row pb-4 ">{/*text-lg-start text-md-start text-sm-center text-center */}
+                        <div className="div-wrapper">
+                            <div className="text-wrapper pb-3">We are here</div>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-6">
+                            <div className="location">Delhi NCR</div>
+                        </div>
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-6">
                             <div className="location">Hyderabad</div>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-6">
                             <div className="location">Bangalore</div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-6">
                             <div className="location">Mumbai</div>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-6">
                             <div className="location">Vadodara</div>
                         </div>
                     </div>
@@ -118,9 +117,6 @@ function Footer() {
                     </div>
                 </div>
             </div>
-
-
-
         </>
     );
 }

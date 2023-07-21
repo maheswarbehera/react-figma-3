@@ -13,25 +13,25 @@ function Grow() {
                         </h1>
                     </div>
                     <div className="row text-center pb-5">
-                        <div className="col-lg-3 col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                             <div className="wrapper">
                                 <h1 className="grow-text counter fs-1">19+</h1>
                                 <span className='grow-text-wrapper'>Cities</span>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                             <div className="wrapper">
                                 <h1 className="grow-text counter fs-1">5 Lakh+</h1>
                                 <span className='grow-text-wrapper'>Driver Partners</span>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                             <div className="wrapper">
                                 <h1 className="grow-text counter fs-1">1 Core+</h1>
                                 <span className='grow-text-wrapper'>Customers</span>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                             <div className="wrapper">
                                 <h1 className="grow-text counter fs-1">10 Core+</h1>
                                 <span className='grow-text-wrapper'>Trips</span>

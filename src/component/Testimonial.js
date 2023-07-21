@@ -21,10 +21,10 @@ function Testimonial() {
                             <div className="">
                                 <p className="something pt-4">
                                     “Way better than naaka
-                                    <br /> waalas. Have shifted all my
-                                    <br /> logistics needs to Porter and I <br />
+                                     waalas. Have shifted all my
+                                     logistics needs to Porter and I 
                                     can now safely focus on my
-                                    <br /> business growth. Amazing <br />
+                                     business growth. Amazing 
                                     service!”
                                 </p>
                             </div>
@@ -42,10 +42,10 @@ function Testimonial() {
                             <div className="">
                                 <p className="something pt-4">
                                     “Way better than naaka
-                                    <br /> waalas. Have shifted all my
-                                    <br /> logistics needs to Porter and I <br />
+                                     waalas. Have shifted all my
+                                     logistics needs to Porter and I 
                                     can now safely focus on my
-                                    <br /> business growth. Amazing <br />
+                                     business growth. Amazing 
                                     service!”
                                 </p>
                             </div>
@@ -63,20 +63,17 @@ function Testimonial() {
                             <div className="">
                                 <p className="something pt-4">
                                     “Way better than naaka
-                                    <br /> waalas. Have shifted all my
-                                    <br /> logistics needs to Porter and I <br />
+                                     waalas. Have shifted all my
+                                     logistics needs to Porter and I 
                                     can now safely focus on my
-                                    <br /> business growth. Amazing <br />
+                                     business growth. Amazing 
                                     service!”
                                 </p>
                             </div>
                         </div>
                     </div>
-                   
                 </div>
             </div>
-
-
         </>
     );
 }

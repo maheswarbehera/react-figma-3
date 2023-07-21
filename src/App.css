@@ -45,7 +45,7 @@ footer.footer-bg {
   font-family: "Titillium Web-Bold", Helvetica;
   font-weight: 700;
   line-height: normal;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 /* testimonial component */
@@ -68,13 +68,14 @@ footer.footer-bg {
 .something {
   color: #ffffff;
   font-family: "Titillium Web-Regular", Helvetica;
-  font-size: 21px;
+  /* font-size: 21px; */
   line-height: normal;
 }
 
 .textimonial-card {
   padding: 20px;
-  width: 80%;
+  /* width: 80%; */
+  width: 70%;
   margin: auto;
 }
 
@@ -87,7 +88,7 @@ footer.footer-bg {
 .faq-text-wrapper {
   color: #000000;
   font-family: "Titillium Web-SemiBold", Helvetica;
-  font-size: 56px;
+  /* font-size: 56px; */
   font-weight: 600;
   line-height: normal;
   text-align: center;
@@ -96,7 +97,7 @@ footer.footer-bg {
 .des {
   color: #00000099;
   font-family: "Titillium Web-Regular", Helvetica;
-  font-size: 23px;
+  /* font-size: 23px; */
   line-height: normal;
   text-align: center;
 }
@@ -117,7 +118,7 @@ footer.footer-bg {
 .custom {
   color: #000 !important;
   font-family: Titillium Web;
-  font-size: 25px !important;
+  font-size: 20px !important;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -135,25 +136,26 @@ ol li {
 .moving-a-billion {
   color: #33333399;
   font-family: "Titillium Web-Regular", Helvetica;
-  font-size: 25px;
+  font-size: 22px;
   line-height: normal;
-  text-align: center; 
+  text-align: center;
 }
 
 .rectangle {
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0px 4px 6px 1px #00000040; 
+  box-shadow: 0px 4px 6px 1px #00000040;
   position: relative;
   top: -115px;
-  
+  padding: 10px 0 25px;
 }
 
 .rectangle img {
   background: #ebf0ff;
   border-radius: 15px;
 }
-.type{
+
+.type {
   color: #000000;
   font-family: "Titillium Web-SemiBold", Helvetica;
   font-size: 13px;
@@ -166,34 +168,124 @@ ol li {
   font-family: "Titillium Web-Bold", Helvetica;
   font-size: 14px;
   font-weight: 700;
-  padding: 16px 0 0px 16px;
   letter-spacing: 0;
   line-height: normal;
-
+  padding: 10px 0;
 }
 
 .get-an-estimate-wrapper {
   background-color: #0041f5;
   border-radius: 20px;
-  height: 135px;
-  width: 100px;
+  margin: 15px;
+  /* height: 135px;
+  width: 100px; */
 }
 
-.time{
+.time {
   color: #ffffff80;
   font-family: "Titillium Web-Regular", Helvetica;
   font-size: 10px;
   margin-top: 10px;
 }
-.city{
+
+.city {
   color: #000000;
   font-family: "Titillium Web-ExtraLight", Helvetica;
   font-size: 15px;
   font-weight: 200;
 }
-.city-name{
+
+.city-name {
   color: #000000;
   font-family: "Titillium Web-SemiBold", Helvetica;
   font-size: 15px;
   font-weight: 600;
+  border-bottom: dotted;
+  cursor: pointer;
+}
+
+/* modal  */
+.card-tab img {
+  width: 80px;
+
+}
+
+.card-tab:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: .3s;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 55% !important;
+  }
+}
+
+.card-tab p {
+  color: #000000;
+  font-family: "Titillium Web-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.left-side {
+  background-color: #ffffff;
+  /* height: 500px; */
+  padding: 148px 30px;
+  /* width: 300px; */
+}
+
+.right-side {
+
+}
+
+.get-estimate {
+  color: #000000;
+  font-family: "Titillium Web-SemiBold", Helvetica;
+  font-weight: 600;
+}
+
+.please-fill-in-the {
+  color: #000000;
+  font-family: "Titillium Web-Regular", Helvetica;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.custom-modal-body {
+  background: var(--bg-main, #F0F3FF) !important;
+  /* height: 500px !important; */
+  /* padding: 0 30px 0 0 !important; */
+}
+
+.card-popup {
+  border-radius: 12px;
+  border: 0.6px solid #000;
+  background: #FFF;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: Titillium Web;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 14px;
+}
+
+.card-popup img {
+  background: #FFF;
+  width: 70px;
+}
+.estimate-close{
+  position: absolute;
+  top: 15px;
+  right: 15px;  
+}
+.back-to-cat {
+  border-radius: 10px;
+  background: #DBE2FF;
+  padding: 10px 14px 0;
+  margin-bottom: 10px;
 }
